@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Poppins:wght@300;600&display=swap');
+
+.hero {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    color: #fff;
+    background: #383e56;
+}
+
+.font-major {
+    font-family: 'Major Mono Display', monospace;
+}
+
+.font-poppins {
+    font-family: 'Poppins', sans-serif;
+}
+
+.text-weak {
+    color: rgba(255, 255, 255, 0.60);
+}
+
+.card-project {
+    color: #333333;
+    transition: 200ms border;
+    margin-bottom: 1rem;
+}
+
+.card-project:hover {
+    color: #333333;
+    text-decoration: none;
+    border-color: #333;
+}
+
+@media (max-width: 576px) {
+    .hero {
+        text-align: center;
+    }
+
+    .hero-title {
+        font-size: 20pt;
+    }
+}
