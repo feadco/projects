@@ -7,6 +7,10 @@
     background: #383e56;
 }
 
+.content {
+    min-height: calc(100vh - 400px);
+}
+
 .font-major {
     font-family: 'Major Mono Display', monospace;
 }
@@ -31,6 +35,29 @@
     border-color: #333;
 }
 
+.footer {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    background: #e2edfb;
+    height: 100vh;
+}
+
+.footer .row > div {
+    margin-bottom: 1rem;
+}
+
+.link {
+    color: #4d4e50;
+    border-bottom: 1px dashed #4d4e50;
+    font-size: 14pt;
+}
+
+.link:hover {
+    color: #333333;
+    border-color: #333333;
+    text-decoration: none;
+}
+
 @media (max-width: 576px) {
     .hero {
         text-align: center;
@@ -38,5 +65,9 @@
 
     .hero-title {
         font-size: 20pt;
+    }
+
+    .footer {
+        text-align: center;
     }
 }
